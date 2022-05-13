@@ -1,0 +1,227 @@
+body {
+    margin: 0;
+}
+
+.wrapper {
+    
+    display: flex;
+    
+}
+
+.main {
+    position: relative;
+    z-index: 3;
+    min-height: 100vh;
+    background: url('./non-club-images/fon.jpg');
+    background-size: cover;
+    padding: 0 0 60px 0;
+    
+}
+
+/* .main:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, .1);
+    z-index: 2;
+} */
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.logo {
+    margin: 0 auto;
+    width: 300px;
+    height: 20vh;
+    background-image: url('./non-club-images/fifa.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.title {
+    text-align: center;
+}
+
+.set-profile-buttons-wrapper {
+    display: flex;
+}
+
+.set-profile {
+    font-size: 20px;
+    margin-bottom: 15px;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 30px;
+    background-color:mediumblue;
+    color:#fff;
+    cursor: pointer;
+}
+
+.change-profile-button {
+    font-size: 20px;
+    margin-bottom: 15px;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 30px;
+    background-color:mediumblue;
+    color:#fff;
+    cursor: pointer;
+}
+
+.change-button-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.profiles {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+
+.profile-block-1,
+.profile-block-2 {
+    position: relative;
+    z-index: 0;
+    width: 300px;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-block-1 .profile-Ilya {
+    position: absolute;
+     
+}
+
+.profile-block-1 .profile-Bekti {
+    position: absolute;
+}
+
+.profile-block-1 .profile-Egor {
+    position: absolute;
+}
+
+.profile-block-2 .profile-Ilya {
+    position: absolute;
+}
+
+.profile-block-2 .profile-Bekti {
+    position: absolute;
+    
+}
+
+.profile-block-2 .profile-Egor {
+    position: absolute;
+}
+
+.profile-photo {
+    background-size: cover;
+    width: 300px;
+    height: 350px;
+    background-repeat: no-repeat
+}
+
+.profile-photo-1 {
+    background-image: url('./non-club-images/Ilya.jpg');
+    background-size: cover;
+    width: 300px;
+    height: 350px;
+    background-repeat: no-repeat
+}
+
+.profile-photo-2 {
+    background-image: url('./non-club-images/Bekti.jpg');
+    background-size: cover;
+    width: 300px;
+    height: 350px;
+    background-repeat:no-repeat
+}
+
+.profile-photo-3 {
+    background-image: url('./non-club-images/Egor.jpg');
+    background-size: cover;
+    width: 300px;
+    height: 350px;
+    background-repeat: no-repeat
+}
+
+.profile-name {
+    
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.random {
+    display: block;
+    margin: 20px auto;
+    font-size: 20px;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 30px;
+    background-color:mediumblue;
+    color:#fff;
+    cursor: pointer;
+}
+
+.stars-buttons {
+    display: flex;
+    flex-direction: column;
+    margin: 0 20px;
+}
+
+.input_wrapper {
+    display: flex;
+    align-items: center;
+    background-color:mediumblue;
+}
+
+input[type="checkbox"] {
+    font-size: 20px;
+    width: 30px;
+    height: 30px;
+}
+
+.input-text {
+    font-size: 30px;
+    color: #fff
+}
+
+.randomizer {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.column-1, .column-2 {
+    width: 300px;
+    height: 300px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.club-logo {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* */
+
+
